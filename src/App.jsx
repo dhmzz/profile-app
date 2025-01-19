@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import Header from './parts/header';
-import Cards from './parts/cards';
+// import Header from './parts/header';
+// import Cards from './parts/cards';
 import Home from './parts/Home';
 import Menu from './parts/Menu';
 
