@@ -3,6 +3,8 @@ import { useEffect, useState } from 'react'
 // import Cards from './parts/cards';
 import Home from './parts/Home';
 import Menu from './parts/Menu';
+import About from './parts/About';
+import Work from './parts/Work';
 
 function App() {
   const [count, setCount] = useState(0);
@@ -28,6 +30,8 @@ function App() {
       <div className='mx-auto md:w-[75vw] lg:w-[75vw] mt-8'>
         <Home />
         <Menu />
+        {/* <About /> */}
+        <Work />
       </div>
     </>
   )
